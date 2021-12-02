@@ -21,13 +21,13 @@ Cette fonction renvoie les performance d'un modele MODEL : lr (LogisticRegressio
 
 GET /users/prediction
 
-Cette fonction renvoie les predictions pour un ou plusieurs individus de subir une attaque
+Cette fonction renvoie les predictions pour un ou plusieurs individus de subir une attaque. Renvoie 1 si la personne est susceptible d'avoir une attaque, 0 sinon.
 
 Example value: [ { "gender": 1, "age": 20, "hypertension": 1, "heart_disease": 0, "ever_married": 1, "urban_residence": 0, "avg_glucose_level": 200, "bmi": 40, "smoking_status": 1 } ]
 
 GET /file/prediction
 
-Cette fonction renvoie les predictions pour un fichier d'individu de subir une attaque
+Cette fonction renvoie les predictions pour un fichier d'individu de subir une attaque. Renvoie 1 si la personne est susceptible d'avoir une attaque, 0 sinon.
 
 Fichier csv entete : id,gender,age,hypertension,heart_disease,ever_married,urban_residence,avg_glucose_level,bmi,smoking_status
 
